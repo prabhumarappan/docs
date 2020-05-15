@@ -554,6 +554,12 @@
             ]
           },
           {
+            "title": "Back up and Restore Data - Advanced Options",
+            "urls": [
+              "/${VERSION}/backup-and-restore-advanced-options.html"
+            ]
+          },
+          {
             "title": "Create a File Server for <code>IMPORT</code>/<code>BACKUP</code>",
             "urls": [
               "/${VERSION}/create-a-file-server.html"
@@ -563,12 +569,6 @@
             "title": "Rotate Security Certificates",
             "urls": [
               "/${VERSION}/rotate-certificates.html"
-            ]
-          },
-          {
-            "title": "Query Replication Reports",
-            "urls": [
-              "/${VERSION}/query-replication-reports.html"
             ]
           }
         ]
@@ -604,6 +604,12 @@
             "title": "Understand Debug Logs",
             "urls": [
               "/${VERSION}/debug-and-error-logs.html"
+            ]
+          },
+          {
+            "title": "Replication Reports",
+            "urls": [
+              "/${VERSION}/query-replication-reports.html"
             ]
           },
           {
@@ -678,6 +684,47 @@
         "title": "SQL Tuning with <code>EXPLAIN</code>",
         "urls": [
           "/${VERSION}/sql-tuning-with-explain.html"
+        ]
+      },
+      {
+        "title": "Multi-Region Development and Deployment",
+        "items": [
+          {
+            "title": "Overview",
+            "urls": [
+              "/${VERSION}/multi-region-overview.html"
+            ]
+          },
+            {
+              "title": "Use-Case",
+              "urls": [
+                "/${VERSION}/multi-region-use-case.html"
+              ]
+            },
+          {
+            "title": "Database Schema",
+            "urls": [
+              "/${VERSION}/multi-region-database.html"
+            ]
+          },
+          {
+            "title": "Setup",
+            "urls": [
+              "/${VERSION}/multi-region-setup.html"
+            ]
+          },
+          {
+            "title": "Application",
+            "urls": [
+              "/${VERSION}/multi-region-application.html"
+            ]
+          },
+          {
+            "title": "Deployment",
+            "urls": [
+              "/${VERSION}/multi-region-deployment.html"
+            ]
+          }
         ]
       }
     ]
@@ -1348,6 +1395,12 @@
                 "title": "<code>SHOW STATISTICS</code>",
                 "urls": [
                   "/${VERSION}/show-statistics.html"
+                ]
+              },
+              {
+                "title": "<code>SHOW SAVEPOINT STATUS</code>",
+                "urls": [
+                  "/${VERSION}/show-savepoint-status.html"
                 ]
               },
               {
