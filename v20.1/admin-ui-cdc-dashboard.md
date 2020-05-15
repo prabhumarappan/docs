@@ -4,7 +4,7 @@ summary: The Changefeeds dashboard lets you monitor the changefeeds created acro
 toc: true
 ---
 
-The **Changefeeds** dashboard in the CockroachDB Admin UI lets you monitor the [changefeeds](change-data-capture.html) created across your cluster. To view this dashboard, [access the Admin UI](admin-ui-access-and-navigate.html#access-the-admin-ui), click **Metrics** on the left-hand navigation bar, and then select **Dashboard** > **Changefeeds**.
+The **Changefeeds** dashboard in the CockroachDB Admin UI lets you monitor the [changefeeds](change-data-capture.html) created across your cluster. To view this dashboard, [access the Admin UI](admin-ui-overview.html#admin-ui-access), click **Metrics** on the left-hand navigation bar, and then select **Dashboard** > **Changefeeds**.
 
 {% include {{ page.version.version }}/admin-ui/admin-ui-metrics-navigation.md %}
 
@@ -65,6 +65,8 @@ Metric | Description
 --------|----
 **Message Emit Time** | The time in milliseconds per second required by CockroachDB to send messages to the sink for all changefeeds.
 **Flush Time** | The time in milliseconds per second that CockroachDB spent waiting for the sink to flush the messages for all changefeeds.
+
+{% include {{ page.version.version }}/admin-ui/admin-ui-summary-events.md %}
 
 ## See also
 

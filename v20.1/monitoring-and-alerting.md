@@ -12,13 +12,13 @@ This page explains available monitoring tools and critical events and metrics to
 
 ### Admin UI
 
-The [built-in Admin UI](admin-ui-access-and-navigate.html) gives you essential metrics about a cluster's health, such as the number of live, dead, and suspect nodes, the number of unavailable ranges, and the queries per second and service latency across the cluster. The Admin UI is accessible from every node at `http://<host>:<http-port>`, or `http://<host>:8080` by default.
+The [Admin UI](admin-ui-overview.html) displays essential metrics about a cluster's health, such as node status, number of unavailable ranges, and queries per second and service latency across the cluster. This tool is designed to help you optimize cluster performance and troubleshoot issues.
 
-#### Accessing the Admin UI for a secure cluster
+The Admin UI is accessible from every node at `http://<host>:<http-port>`, or `http://<host>:8080` by default. For more information on accessing the Admin UI, see [Admin UI access](admin-ui-overview.html#admin-ui-access).
 
-For each user who should have access to the Admin UI for a secure cluster, [create a user with a password](create-user.html#create-a-user-with-a-password). On accessing the Admin UI, the users will see a Login screen, where they will need to enter their usernames and passwords.
-
-{{site.data.alerts.callout_danger}}Because the Admin UI is built into CockroachDB, if a cluster becomes unavailable, most of the Admin UI becomes unavailable as well. Therefore, it's essential to plan additional methods of monitoring cluster health as described below.{{site.data.alerts.end}}
+{{site.data.alerts.callout_danger}}
+Because the Admin UI is built into CockroachDB, if a cluster becomes unavailable, most of the Admin UI becomes unavailable as well. Therefore, it's essential to plan additional methods of monitoring cluster health as described below.
+{{site.data.alerts.end}}
 
 ### Prometheus endpoint
 
